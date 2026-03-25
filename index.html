@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopWave – Modern E-Commerce Store</title>
+  <meta name="description" content="ShopWave – Discover premium electronics, fashion, home goods, and sports gear. Shop the best deals with free shipping on orders over $100."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">🌊</div>
+      <span>ShopWave</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="index.html">Electronics</a>
+      <a href="index.html">Fashion</a>
+      <a href="index.html">Sports</a>
+    </div>
+    <div class="nav-actions">
+      <div class="nav-search">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" placeholder="Search products..." autocomplete="off"/>
+      </div>
+      <a href="cart.html" class="cart-btn" id="cart-nav-btn">
+        🛒 Cart
+        <span class="cart-badge" style="display:none">0</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-badge">✨ New Arrivals This Week</div>
+    <h1>
+      Shop <span class="gradient-text">Premium Products</span><br/>at Unbeatable Prices
+    </h1>
+    <p>Discover curated collections across Electronics, Fashion, Home & Kitchen, and Sports. Free shipping on orders over $100.</p>
+    <div class="hero-stats">
+      <div class="stat"><div class="num">12+</div><div class="lbl">Products</div></div>
+      <div class="stat"><div class="num">4</div><div class="lbl">Categories</div></div>
+      <div class="stat"><div class="num">4.7⭐</div><div class="lbl">Avg Rating</div></div>
+      <div class="stat"><div class="num">$0</div><div class="lbl">Shipping over $100</div></div>
+    </div>
+  </section>
+
+  <!-- FILTERS -->
+  <section class="filter-section">
+    <div class="category-filters">
+      <button class="filter-btn active" data-cat="All">All Products</button>
+      <button class="filter-btn" data-cat="Electronics">📱 Electronics</button>
+      <button class="filter-btn" data-cat="Fashion">👗 Fashion</button>
+      <button class="filter-btn" data-cat="Home & Kitchen">🏠 Home & Kitchen</button>
+      <button class="filter-btn" data-cat="Sports">⚽ Sports</button>
+    </div>
+    <select class="sort-select" id="sort-select">
+      <option value="default">Sort: Featured</option>
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+      <option value="rating">Top Rated</option>
+      <option value="popular">Most Popular</option>
+    </select>
+  </section>
+
+  <!-- PRODUCTS GRID -->
+  <section class="products-section">
+    <div class="products-grid" id="products-grid">
+      <!-- Products rendered by JS -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-name">🌊 ShopWave</div>
+        <p>Your one-stop destination for premium products at the best prices. Quality guaranteed, delivered to your door.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#">Electronics</a>
+        <a href="#">Fashion</a>
+        <a href="#">Home & Kitchen</a>
+        <a href="#">Sports</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Track Order</a>
+        <a href="#">Returns</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 ShopWave. All rights reserved.</span>
+      <span>Made with ❤️ for great shopping experiences</span>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

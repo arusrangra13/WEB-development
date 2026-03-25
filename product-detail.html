@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Details – ShopWave</title>
+  <meta name="description" content="View product details, features, colors, and add to cart at ShopWave."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">🌊</div>
+      <span>ShopWave</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html">Electronics</a>
+      <a href="index.html">Fashion</a>
+      <a href="index.html">Sports</a>
+    </div>
+    <div class="nav-actions">
+      <a href="cart.html" class="cart-btn">
+        🛒 Cart
+        <span class="cart-badge" style="display:none">0</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- PRODUCT DETAIL (rendered by JS) -->
+  <div id="product-detail-content"></div>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
