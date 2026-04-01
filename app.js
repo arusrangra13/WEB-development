@@ -66,13 +66,10 @@ function updateCartBadge() {
 
 // ===== STAR RATING =====
 function renderStars(rating) {
-  const full = Math.floor(rating);
-  const half = rating % 1 >= 0.5;
+  const full = Math.round(rating);
   let html = '';
   for (let i = 0; i < 5; i++) {
-    if (i < full) html += '★';
-    else if (i === full && half) html += '½';
-    else html += '☆';
+    html += i < full ? '★' : '☆';
   }
   return html;
 }
