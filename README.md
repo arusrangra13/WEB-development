@@ -1,50 +1,73 @@
-🛒 Mini E-Commerce Website
-📌 About
+# 🛒 Mini E-Commerce Website
 
-This is a simple mini e-commerce website that I built while learning web development.
-The main idea behind this project is to understand how an online shopping website works — from displaying products to managing a cart.
+A fully functional mini e-commerce website built with pure HTML, CSS, and JavaScript — no frameworks, no libraries. Designed as a front-end learning project to simulate how a real online shopping experience works.
 
-🚀 What this project does
-Shows a list of products
-Lets users add items to the cart
-Allows removing items from the cart
-Updates total price automatically
-Saves cart data using local storage
-🛠️ Built With
-HTML
-CSS
-JavaScript
-📂 Project Structure
-ecommerce/
- ├── index.html
- ├── cart.html
- ├── style.css
- ├── script.js
- └── data.js
-🧠 What I learned
+## 🌟 Features
 
-While building this project, I learned:
+- 🏪 **Product Listing Page** — Browse all available products at a glance
+- 🔍 **Product Detail Page** — View detailed info about each product
+- 🛒 **Shopping Cart** — Add/remove items with live price updates
+- 💾 **Local Storage** — Cart persists even after refreshing the page
+- 📱 **Responsive Design** — Clean UI that works across devices
 
-How to work with the DOM
-How to use local storage in JavaScript
-How to manage data like a shopping cart
-How to design simple and clean UI
-🎯 Future Plans
+## 🛠️ Tech Stack
 
-I plan to improve this project by adding:
+| Technology | Usage |
+|------------|-------|
+| HTML5 | Page structure & layout |
+| CSS3 | Styling & responsiveness |
+| JavaScript (Vanilla) | Cart logic, DOM manipulation, local storage |
 
-Search and filter options
-Better UI design
-Login/signup system
-Backend integration for real data
-💻 How to run
-Download or clone this repository
-Open the folder
-Run index.html in your browser
-📸 Screenshots
+## 📂 Project Structure
+Mini-E-Commerce-Website/
+├── index.html           # Home page — product listing
+├── product-detail.html  # Individual product detail view
+├── cart.html            # Shopping cart page
+├── style.css            # All styles
+├── app.js               # Core logic (cart, DOM, events)
+└── products.js          # Product data
+## 🚀 Getting Started
 
-(I will add screenshots soon)
+No installation or setup needed!
 
-🌐 Live Demo
+```bash
+# Clone the repository
+git clone https://github.com/arusrangra13/Mini-E-Commerce-Website.git
 
-(Will be added after deployment)
+# Open the project folder
+cd Mini-E-Commerce-Website
+
+# Just open index.html in your browser!
+```
+
+Or simply double-click `index.html` to launch it locally.
+
+## 🧠 Concepts Practiced
+
+- DOM selection and manipulation
+- Event listeners and handlers
+- Dynamic rendering of product data
+- Local Storage for cart persistence
+- Multi-page navigation with URL parameters
+- Responsive CSS layouts
+
+## 🎯 Future Improvements
+
+- [ ] Search and filter functionality
+- [ ] Quantity selector in cart
+- [ ] Checkout & order summary page
+- [ ] Login/signup system
+- [ ] Backend integration (Node.js / Firebase)
+- [ ] Live deployment (GitHub Pages / Vercel)
+
+## 📸 Screenshots
+
+> Coming soon...
+
+## 🌐 Live Demo
+
+> Will be added after deployment
+
+---
+
+Made with ❤️ while learning Front-End Development
